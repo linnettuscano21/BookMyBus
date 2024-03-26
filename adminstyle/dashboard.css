@@ -1,0 +1,123 @@
+*
+{
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+body {
+    margin: 20px 40px;
+}
+
+#dashboard {
+    transition: all .6s;
+    margin-left: 300px;
+}
+.btn-success
+{
+    background:linear-gradient(to left,#FE6B32,#ff780a);
+    border: none;
+}
+.btn-success:hover
+{
+    background:linear-gradient(to left,#ff780a,#FE6B32);
+}
+.addbus h4
+{    text-align: center;
+     font-size: 30px;
+}
+
+.addbus {
+    background-color: #f2f2f2;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #6B32FE;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #325FFE;
+}
+input[type=file]
+{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+table td,
+th {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+tr {
+    background-color: rgb(232, 240, 255);
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.actionbtn
+{
+    background-color: #6B32FE;
+    color: white;
+}
+.actionbtn:hover
+{
+    background-color: #325FFE;
+    color: white;
+}

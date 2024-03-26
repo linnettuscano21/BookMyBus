@@ -1,0 +1,97 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+.admin {
+    width: 100vw;
+    height: 100vh;
+}
+
+.admin .header
+{
+    text-align: center;
+    font-size: 30px;
+}
+.admin .header small
+{
+    font-size: 16px;
+}
+
+.admin .row {
+    width: 70vw;
+    height: 70vh;
+    box-shadow: 2px 2px 20px grey;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.col-lg-4
+{
+    background:linear-gradient(#fe6c328e,#fc4801ab), url(../image/bus_2.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    filter:brightness(130%);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-lg-8
+{
+    padding: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.loginright
+{
+    width: 100%;
+}
+
+input[type="email"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    border-radius: 0;
+}
+.submitbtn
+{
+    width: 100%;
+    
+}
+.submitbtn .btn
+{
+    background-color: #6B32FE;
+    color:white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.submitbtn .btn:hover
+{
+    background-color:#325FFE;
+    color:white;
+}
+button
+{
+    width: 100%;
+}
+@media screen and (max-width:767px) {
+    .col-lg-4  {
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 0px;
+        height: 200px;
+    }
+    .col-lg-8
+{
+    padding-bottom: 100px;
+    background-attachment: red;
+}
+}

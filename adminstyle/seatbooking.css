@@ -1,0 +1,92 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+.body
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 192, 109);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+ 
+}
+.button
+{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: #6B32FE ;
+}
+
+.mainbox
+{
+    width: 60vw;
+    height: max-content;
+    text-align: center;
+    background-color: rgb(253, 253, 253);
+    border-radius: 10px;
+    padding: 10px;
+}
+img
+{
+    border-radius: 10px;
+    width: 100%;
+    border: 5px solid rgba(110, 110, 110, 0.603);
+}
+.info
+{
+    text-align: left;
+}
+.box
+{
+    text-align: left;
+    padding: 20px;
+    background-color: rgb(232, 240, 255);
+    border-radius: 6px;
+    width: 100%;
+    
+}
+.box p
+{
+    font-size: 1rem;
+}
+.forminput
+{
+    width: 100%;
+}
+input
+{
+    width: 100%;
+}
+input[type="submit"]
+{
+    color: white;
+    background-color: #6B32FE;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+input[type="submit"]:hover
+{
+    color: white;
+    background-color: #325FFE;
+}
+.boarding .row
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width:400px) {
+.mainbox
+{
+    width: 100vw;
+}
+}
